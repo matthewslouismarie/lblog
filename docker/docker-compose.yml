@@ -1,0 +1,20 @@
+version: '3.1'
+
+services:
+
+  wordpress:
+    build: webserver
+    environment:
+      WORDPRESS_DB_PASSWORD: example
+      WORDPRESS_DB_HOST: mariadb
+    links:
+      - mariadb
+    ports:
+      - 8080:80
+    volumes:
+      - ..:/var/www/html/wp-content/themes/matthewslouismarie
+
+  mariadb:
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+    image: mariadb:10.3.6
