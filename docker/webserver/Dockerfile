@@ -4,11 +4,11 @@ FROM wordpress:4.9.5-php7.2-apache
 RUN apt-get update
 
 # # Switch to standard user
-# RUN useradd -m louis
-# RUN apt-get install -y sudo
-# COPY config/sudoers /etc/sudoers.d/sudoers
-# RUN chmod 0444 /etc/sudoers.d/sudoers
-# USER louis
+RUN useradd -m louis
+RUN apt-get install -y sudo
+COPY config/sudoers /etc/sudoers.d/sudoers
+RUN chmod 0444 /etc/sudoers.d/sudoers
+USER louis
 
 # # Packages
 # RUN sudo apt-get install -y wget git zlib1g-dev gnupg2
@@ -48,4 +48,4 @@ RUN apt-get update
 # # Set working directory
 # WORKDIR /var/www/html/symfony
 
-# CMD sudo apache2-foreground
+CMD sudo apache2-foreground
