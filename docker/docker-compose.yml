@@ -12,7 +12,7 @@ services:
     ports:
       - 80:80
     volumes:
-      - ..:/var/www/html/wp-content/themes/matthewslouismarie
+      - ..:/var/www/html/wp-content/themes/lblog
 
   mariadb:
     environment:

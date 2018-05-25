@@ -45,13 +45,13 @@ RUN wp core download
 # RUN sudo a2enconf ssl-params
 # RUN sudo a2enconf servername
 
-# # Install Composer
-# WORKDIR /usr/local/bin
-# COPY scripts/install-composer .
-# COPY scripts/composer .
-# RUN sudo chmod 755 install-composer composer
-# RUN sudo ./install-composer
-# RUN sudo rm install-composer
+# Install Composer
+RUN sudo apt-get install -y wget
+COPY scripts/install-composer /home/louis/bin
+COPY scripts/composer /home/louis/bin
+RUN sudo chmod +x ~/bin/install-composer ~/bin/composer
+RUN install-composer
+RUN rm ~/bin/install-composer
 
 # # Install NPM and Grunt
 # RUN sudo curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
