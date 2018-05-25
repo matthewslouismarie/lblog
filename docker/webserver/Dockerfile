@@ -1,20 +1,33 @@
-FROM wordpress:4.9.5-php7.2-apache
+FROM php:7.2.5-apache
 
 # Update packages
 RUN apt-get update
 
-# # Switch to standard user
+# Switch to standard user
 RUN useradd -m louis
 RUN apt-get install -y sudo
 COPY config/sudoers /etc/sudoers.d/sudoers
 RUN chmod 0444 /etc/sudoers.d/sudoers
 USER louis
 
-# # Packages
-# RUN sudo apt-get install -y wget git zlib1g-dev gnupg2
+# Update PATH
+ENV PATH="/home/louis/bin:${PATH}"
 
-# # PHP configuration
-# RUN sudo docker-php-ext-install pdo_mysql zip
+# Install WP-CLI
+RUN mkdir ~/bin
+RUN curl -o ~/bin/wp -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+RUN sudo chmod +x ~/bin/wp
+RUN sudo apt-get install -y less
+RUN sudo apt-get install -y mysql-client
+
+# Ownership on html
+RUN sudo chown -cR louis: .
+
+# PHP configuration
+RUN sudo docker-php-ext-install mysqli
+
+# Download WordPress
+RUN wp core download
 
 # # Fix Apache warning
 # RUN sudo echo "ServerName 172.16.238.10" | sudo tee /etc/apache2/conf-available/servername.conf
@@ -48,4 +61,11 @@ USER louis
 # # Set working directory
 # WORKDIR /var/www/html/symfony
 
-CMD sudo apache2-foreground
+#COPY config/000-default.conf /etc/apache2/sites-enabled/000-default.conf
+#RUN sudo a2enmod rewrite
+#RUN sudo a2enmod headers
+
+COPY scripts/start-server /home/louis/bin/start-server
+RUN sudo chmod +x ~/bin/start-server
+
+CMD start-server

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+wp config create --dbname=wordpress --dbuser=root --dbpass=example --dbhost=mariadb
+wp db create
+wp core install --url=localhost:8080 --title="Louis-Marie Matthews's Blog" --admin_user=matthewslouismarie --admin_password=example --admin_email=matthewslouismarie@gmail.com
+
+sudo apache2-foreground

@@ -1,2 +1,0 @@
-mysql -h mariadb -u root -pexample < database.sql
-mysql -h mariadb -u root -p wordpress -pexample < tables.sql
