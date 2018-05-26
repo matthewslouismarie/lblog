@@ -12,6 +12,8 @@
  * @return array
  */
 function lblog_body_classes( $classes ) {
+	$classes[] = 'site-content';
+
 	// Adds a class of hfeed to non-singular pages.
 	if ( ! is_singular() ) {
 		$classes[] = 'hfeed';
