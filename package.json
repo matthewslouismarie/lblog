@@ -1,0 +1,23 @@
+{
+  "name": "lblog",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewslouismarie/matthewslouismarie.fr.git"
+  },
+  "author": "matthewslouismarie",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/matthewslouismarie/matthewslouismarie.fr/issues"
+  },
+  "homepage": "https://github.com/matthewslouismarie/matthewslouismarie.fr#readme",
+  "dependencies": {
+    "grunt": "^1.0.2",
+    "grunt-sass": "^2.1.0"
+  }
+}

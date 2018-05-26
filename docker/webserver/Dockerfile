@@ -53,10 +53,12 @@ RUN sudo chmod +x ~/bin/install-composer ~/bin/composer
 RUN install-composer
 RUN rm ~/bin/install-composer
 
-# # Install NPM and Grunt
-# RUN sudo curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
-# RUN sudo apt-get install -y nodejs
-# RUN sudo npm install -g grunt-cli
+# Install NPM and Grunt
+RUN sudo apt-get install -y gnupg2
+RUN sudo curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
+RUN sudo apt-get install -y nodejs
+RUN sudo apt-get install -y git
+RUN sudo npm install -g grunt-cli
 
 # # Set working directory
 # WORKDIR /var/www/html/symfony
