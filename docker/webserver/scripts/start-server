@@ -1,7 +1,11 @@
 #!/bin/sh
 
+while ! mysqladmin ping -h"mariadb" --silent; do
+    sleep 1
+done
+
 wp config create --dbname=wordpress --dbuser=root --dbpass=example --dbhost=mariadb
 wp db create
-wp core install --url=localhost:8080 --title="Louis-Marie Matthews's Blog" --admin_user=matthewslouismarie --admin_password=example --admin_email=matthewslouismarie@gmail.com
+wp core install --url=localhost --title="Louis-Marie Matthews's Blog" --admin_user=matthewslouismarie --admin_password=example --admin_email=matthewslouismarie@gmail.com
 
 sudo apache2-foreground
