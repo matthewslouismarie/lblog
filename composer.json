@@ -1,4 +1,14 @@
 {
+    "name": "matthewslouismarie/lblog",
+    "description": "The WordPress theme of my blog.",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Louis-Marie Matthews",
+            "email": "matthewslouismarie@gmail.com"
+        }
+    ],
     "require": {
         "phpunit/phpunit": "^7.1",
         "guzzlehttp/guzzle": "^6.3"
