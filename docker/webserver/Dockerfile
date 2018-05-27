@@ -61,8 +61,11 @@ RUN sudo apt-get install -y git
 RUN sudo npm install -g grunt-cli
 
 # # Set working directory
-# WORKDIR /var/www/html/symfony
+WORKDIR /var/www/html/wp-content/themes/lblog
 
+# ZIP extension for Composer
+RUN sudo apt-get install -y zlib1g-dev
+RUN sudo docker-php-ext-install zip
 #COPY config/000-default.conf /etc/apache2/sites-enabled/000-default.conf
 #RUN sudo a2enmod rewrite
 #RUN sudo a2enmod headers
