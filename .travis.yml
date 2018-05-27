@@ -12,7 +12,8 @@ before_install:
   - sudo service mysql stop
   - cd docker
   - docker-compose up --build -d
-  - ../bootstrap
+  - cd ..
+  - ./bootstrap
 
 script:
   - phpunit
