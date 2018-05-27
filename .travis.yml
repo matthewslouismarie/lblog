@@ -7,6 +7,7 @@ before_install:
   - sudo service mysql stop
   - cd docker
   - docker-compose up --build -d
+  - docker exec docker_wordpress_1 ./bootstrap
 
 script:
   - docker exec docker_wordpress_1 bin/phpunit
