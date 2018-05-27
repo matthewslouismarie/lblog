@@ -12,6 +12,5 @@ cd /var/www/html/wp-content/themes/lblog/docker
 wp import louis-mariematthews039sblog.wordpress.2018-05-26.xml --authors=create
 wp post create --post_type=page --post_name=portfolio --post_status=publish
 wp theme activate lblog
-sudo chown -cR louis: /var/www/html/wp-content/themes/blog
 
 sudo apache2-foreground
