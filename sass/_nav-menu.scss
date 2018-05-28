@@ -1,0 +1,18 @@
+.nav-menu {
+  > .page_item {
+    display: inline-block;
+    margin: 0.1rem;
+  }
+
+  > .page_item > a {
+    color: #fff;
+    display: block;
+    background-color: #2e2e2e;
+    height: 5rem;
+    width: 5rem;
+  }
+
+  > .page_item > a:hover {
+    background-color: #505050;
+  }
+}
