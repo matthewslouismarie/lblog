@@ -6,8 +6,8 @@ get_header();
 ?>
 
 <main class="main-content">
-<?= get_the_title() ?>
-<?= get_the_content() ?>
+  <h1 class="document-title"><?= get_the_title() ?></h1>
+  <?= get_the_content() ?>
 </main>
 
 <?php
