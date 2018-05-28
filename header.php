@@ -42,12 +42,13 @@
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
         <img alt="Navigation Menu" class="icon" src="<?= get_stylesheet_directory_uri() ?>/public/glyphicons_free/glyphicons/png/glyphicons-517-menu-hamburger.png">
       </button>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
+
+      <div id="primary-menu" class="menu">
+        <ul>
+          <li class="page_item page-item-100 current_page_item"><a href="<?= home_url() ?>">Home</a></li>
+          <li class="page_item page-item-100 current_page_item"><a href="<?= get_permalink(get_page_by_path('/portfolio/')->ID) ?>">Portfolio</a></li>
+        </ul>
+      </div>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
 
