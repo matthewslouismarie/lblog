@@ -1,0 +1,6 @@
+#!/bin/sh
+
+mkdir public
+cd public
+wget http://glyphicons.com/files/glyphicons_free.zip
+unzip glyphicons_free.zip

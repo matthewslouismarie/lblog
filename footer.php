@@ -14,19 +14,7 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'lblog' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'lblog' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'lblog' ), 'lblog', '<a href="https://matthewslouismarie.fr">matthewslouismarie</a>' );
-				?>
-		</div><!-- .site-info -->
+		<div class="site-info">Icons from <a href="http://glyphicons.com/">Glyphicon.com</a> (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>).</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

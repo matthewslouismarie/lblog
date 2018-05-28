@@ -70,6 +70,9 @@ RUN sudo docker-php-ext-install zip
 #RUN sudo a2enmod rewrite
 #RUN sudo a2enmod headers
 
+# unzip for Glyphicons extracting
+RUN sudo apt-get install -y unzip
+
 COPY scripts/start-server /home/louis/bin/start-server
 RUN sudo chmod +x ~/bin/start-server
 
