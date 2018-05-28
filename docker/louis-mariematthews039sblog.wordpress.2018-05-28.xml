@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.9.6" created="2018-05-27 22:45" -->
+<!-- generator="WordPress/4.9.6" created="2018-05-28 22:26" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Louis-Marie Matthews&#039;s Blog</title>
 	<link>http://localhost</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Sun, 27 May 2018 22:45:09 +0000</pubDate>
+	<pubDate>Mon, 28 May 2018 22:26:26 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost</wp:base_site_url>
@@ -117,27 +117,98 @@
 	<item>
 		<title>Hello world!</title>
 		<link>http://localhost/?p=1</link>
-		<pubDate>Sun, 27 May 2018 16:18:56 +0000</pubDate>
+		<pubDate>Mon, 28 May 2018 20:54:03 +0000</pubDate>
 		<dc:creator><![CDATA[matthewslouismarie]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/?p=1</guid>
 		<description></description>
 		<content:encoded><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>1</wp:post_id>
-		<wp:post_date><![CDATA[2018-05-27 16:18:56]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-05-27 16:18:56]]></wp:post_date_gmt>
+		<wp:post_date><![CDATA[2018-05-28 20:54:03]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-05-28 20:54:03]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[hello-world]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[hello-world__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[post]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1527545863]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hello-world]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_comments_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:1;s:1:"1";}]]></wp:meta_value>
+		</wp:postmeta>
 		<wp:comment>
 			<wp:comment_id>1</wp:comment_id>
+			<wp:comment_author><![CDATA[A WordPress Commenter]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[wapuu@wordpress.example]]></wp:comment_author_email>
+			<wp:comment_author_url>https://wordpress.org/</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2018-05-28 20:54:03]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2018-05-28 20:54:03]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Hi, this is a comment.
+To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
+Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[post-trashed]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
+	</item>
+	<item>
+		<title>Hello world!</title>
+		<link>http://localhost/?p=4</link>
+		<pubDate>Sun, 27 May 2018 16:18:56 +0000</pubDate>
+		<dc:creator><![CDATA[matthewslouismarie]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/?p=1</guid>
+		<description></description>
+		<content:encoded><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>4</wp:post_id>
+		<wp:post_date><![CDATA[2018-05-27 16:18:56]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-05-27 16:18:56]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[hello-world-2__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1527545865]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[hello-world-2]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_comments_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:2;s:1:"1";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>2</wp:comment_id>
 			<wp:comment_author><![CDATA[A WordPress Commenter]]></wp:comment_author>
 			<wp:comment_author_email><![CDATA[wapuu@wordpress.example]]></wp:comment_author_email>
 			<wp:comment_author_url>https://wordpress.org/</wp:comment_author_url>
@@ -146,200 +217,25 @@
 			<wp:comment_date_gmt><![CDATA[2018-05-27 16:18:56]]></wp:comment_date_gmt>
 			<wp:comment_content><![CDATA[Hi, this is a comment.
 To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
-Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:comment_content>
-			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+Commenter avatars come from <a href="https://gravatar.com" rel="nofollow">Gravatar</a>.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[post-trashed]]></wp:comment_approved>
 			<wp:comment_type><![CDATA[]]></wp:comment_type>
 			<wp:comment_parent>0</wp:comment_parent>
 			<wp:comment_user_id>0</wp:comment_user_id>
 		</wp:comment>
 	</item>
 	<item>
-		<title>Espresso</title>
-		<link>http://localhost/?attachment_id=13</link>
-		<pubDate>Sun, 07 Jan 2018 17:10:10 +0000</pubDate>
-		<dc:creator><![CDATA[matthewslouismarie]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wp-content/uploads/2018/01/espresso-1.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>13</wp:post_id>
-		<wp:post_date><![CDATA[2018-01-07 17:10:10]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-01-07 17:10:10]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[espresso]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://localhost/wp-content/uploads/2018/01/espresso-1.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2018/01/espresso-1.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:4:{s:5:"width";i:2000;s:6:"height";i:1200;s:4:"file";s:22:"2018/01/espresso-1.jpg";s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_starter_content_theme]]></wp:meta_key>
-			<wp:meta_value><![CDATA[twentyseventeen]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Sandwich</title>
-		<link>http://localhost/?attachment_id=14</link>
-		<pubDate>Sun, 07 Jan 2018 17:10:10 +0000</pubDate>
-		<dc:creator><![CDATA[matthewslouismarie]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wp-content/uploads/2018/01/sandwich-1.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14</wp:post_id>
-		<wp:post_date><![CDATA[2018-01-07 17:10:10]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-01-07 17:10:10]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[sandwich]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://localhost/wp-content/uploads/2018/01/sandwich-1.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2018/01/sandwich-1.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:4:{s:5:"width";i:2000;s:6:"height";i:1200;s:4:"file";s:22:"2018/01/sandwich-1.jpg";s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_starter_content_theme]]></wp:meta_key>
-			<wp:meta_value><![CDATA[twentyseventeen]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Coffee</title>
-		<link>http://localhost/?attachment_id=15</link>
-		<pubDate>Sun, 07 Jan 2018 17:10:10 +0000</pubDate>
-		<dc:creator><![CDATA[matthewslouismarie]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wp-content/uploads/2018/01/coffee-1.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>15</wp:post_id>
-		<wp:post_date><![CDATA[2018-01-07 17:10:10]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-01-07 17:10:10]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[coffee]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://localhost/wp-content/uploads/2018/01/coffee-1.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2018/01/coffee-1.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:4:{s:5:"width";i:2000;s:6:"height";i:1200;s:4:"file";s:20:"2018/01/coffee-1.jpg";s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_starter_content_theme]]></wp:meta_key>
-			<wp:meta_value><![CDATA[twentyseventeen]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>lmsblog</title>
-		<link>http://localhost/?attachment_id=23</link>
-		<pubDate>Sun, 07 Jan 2018 17:09:05 +0000</pubDate>
-		<dc:creator><![CDATA[matthewslouismarie]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wp-content/uploads/2018/01/lmsblog.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>23</wp:post_id>
-		<wp:post_date><![CDATA[2018-01-07 17:09:05]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-01-07 17:09:05]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[lmsblog]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://localhost/wp-content/uploads/2018/01/lmsblog.png]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2018/01/lmsblog.png]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:4:{s:5:"width";i:512;s:6:"height";i:512;s:4:"file";s:19:"2018/01/lmsblog.png";s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Logo</title>
-		<link>http://localhost/?attachment_id=24</link>
-		<pubDate>Sun, 07 Jan 2018 17:09:07 +0000</pubDate>
-		<dc:creator><![CDATA[matthewslouismarie]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wp-content/uploads/2018/01/cropped-lmsblog.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[LM's Blog Logo]]></excerpt:encoded>
-		<wp:post_id>24</wp:post_id>
-		<wp:post_date><![CDATA[2018-01-07 17:09:07]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-01-07 17:09:07]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[cropped-lmsblog-png]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://localhost/wp-content/uploads/2018/01/cropped-lmsblog.png]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2018/01/cropped-lmsblog.png]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:4:{s:5:"width";i:512;s:6:"height";i:512;s:4:"file";s:27:"2018/01/cropped-lmsblog.png";s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
-			<wp:meta_value><![CDATA[site-icon]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Louis-Marie Matthews's Blog]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Home</title>
-		<link>http://localhost/?p=25</link>
-		<pubDate>Sun, 27 May 2018 16:19:06 +0000</pubDate>
+		<link>http://localhost/?p=5</link>
+		<pubDate>Mon, 28 May 2018 20:54:10 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/?p=25</guid>
+		<guid isPermaLink="false">http://localhost/?p=5</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>25</wp:post_id>
-		<wp:post_date><![CDATA[2018-05-27 16:19:06]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-05-27 16:19:06]]></wp:post_date_gmt>
+		<wp:post_id>5</wp:post_id>
+		<wp:post_date><![CDATA[2018-05-28 20:54:10]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-05-28 20:54:10]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[home]]></wp:post_name>
@@ -360,7 +256,7 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[25]]></wp:meta_value>
+			<wp:meta_value><![CDATA[5]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
@@ -385,16 +281,16 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 	</item>
 	<item>
 		<title>Portfolio</title>
-		<link>http://localhost/?p=26</link>
-		<pubDate>Sun, 27 May 2018 16:19:07 +0000</pubDate>
+		<link>http://localhost/?p=6</link>
+		<pubDate>Mon, 28 May 2018 20:54:11 +0000</pubDate>
 		<dc:creator><![CDATA[]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/?p=26</guid>
+		<guid isPermaLink="false">http://localhost/?p=6</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>26</wp:post_id>
-		<wp:post_date><![CDATA[2018-05-27 16:19:07]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-05-27 16:19:07]]></wp:post_date_gmt>
+		<wp:post_id>6</wp:post_id>
+		<wp:post_date><![CDATA[2018-05-28 20:54:11]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-05-28 20:54:11]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[portfolio]]></wp:post_name>
@@ -415,7 +311,7 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[26]]></wp:meta_value>
+			<wp:meta_value><![CDATA[6]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
@@ -682,76 +578,6 @@ gettext documentation: https://developer.wordpress.org/reference/hooks/gettext/
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Screenshot from 2018-02-08 09-29-45</title>
-		<link>http://localhost/?attachment_id=80</link>
-		<pubDate>Thu, 08 Feb 2018 09:30:38 +0000</pubDate>
-		<dc:creator><![CDATA[matthewslouismarie]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wp-content/uploads/2018/02/Screenshot-from-2018-02-08-09-29-45.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>80</wp:post_id>
-		<wp:post_date><![CDATA[2018-02-08 09:30:38]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-02-08 09:30:38]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[screenshot-from-2018-02-08-09-29-45]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>66</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://localhost/wp-content/uploads/2018/02/Screenshot-from-2018-02-08-09-29-45.png]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2018/02/Screenshot-from-2018-02-08-09-29-45.png]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:4:{s:5:"width";i:1920;s:6:"height";i:1080;s:4:"file";s:47:"2018/02/Screenshot-from-2018-02-08-09-29-45.png";s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
-			<wp:meta_value><![CDATA[You can see a list of all the sidebars of your theme in Appearance > Widgets.]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>AMP Logo</title>
-		<link>http://localhost/?attachment_id=87</link>
-		<pubDate>Wed, 28 Feb 2018 18:23:44 +0000</pubDate>
-		<dc:creator><![CDATA[matthewslouismarie]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wp-content/uploads/2018/02/lmblogamp.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>87</wp:post_id>
-		<wp:post_date><![CDATA[2018-02-28 18:23:44]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-02-28 18:23:44]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[lmblogamp]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://localhost/wp-content/uploads/2018/02/lmblogamp.png]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2018/02/lmblogamp.png]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:4:{s:5:"width";i:190;s:6:"height";i:36;s:4:"file";s:21:"2018/02/lmblogamp.png";s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
-			<wp:meta_value><![CDATA[LM's Blog]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Secure Second-Factor Authentication using U2F</title>
 		<link>http://localhost/?p=88</link>
 		<pubDate>Wed, 28 Feb 2018 19:57:16 +0000</pubDate>
@@ -873,252 +699,61 @@ Srinivas, Sampath. "Security Keys: Practical Cryptographic Second Factors for th
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Codes sent by Text</title>
-		<link>http://localhost/?attachment_id=89</link>
-		<pubDate>Wed, 28 Feb 2018 18:54:56 +0000</pubDate>
-		<dc:creator><![CDATA[matthewslouismarie]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wp-content/uploads/2018/02/text2fa_2.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>89</wp:post_id>
-		<wp:post_date><![CDATA[2018-02-28 18:54:56]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-02-28 18:54:56]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[text2fa_2]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>88</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://localhost/wp-content/uploads/2018/02/text2fa_2.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2018/02/text2fa_2.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:4:{s:5:"width";i:658;s:6:"height";i:296;s:4:"file";s:21:"2018/02/text2fa_2.jpg";s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Authentication using Text 2FA happens in several steps.]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>U2F Registration</title>
-		<link>http://localhost/?attachment_id=90</link>
-		<pubDate>Wed, 28 Feb 2018 19:11:05 +0000</pubDate>
-		<dc:creator><![CDATA[matthewslouismarie]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wp-content/uploads/2018/02/u2f.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>90</wp:post_id>
-		<wp:post_date><![CDATA[2018-02-28 19:11:05]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-02-28 19:11:05]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[u2f]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>88</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://localhost/wp-content/uploads/2018/02/u2f.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2018/02/u2f.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:4:{s:5:"width";i:767;s:6:"height";i:263;s:4:"file";s:15:"2018/02/u2f.jpg";s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
-			<wp:meta_value><![CDATA[The U2F Registration Process]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>U2F Authentication</title>
-		<link>http://localhost/?attachment_id=91</link>
-		<pubDate>Wed, 28 Feb 2018 19:22:37 +0000</pubDate>
-		<dc:creator><![CDATA[matthewslouismarie]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wp-content/uploads/2018/02/u2fauthentication.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>91</wp:post_id>
-		<wp:post_date><![CDATA[2018-02-28 19:22:37]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-02-28 19:22:37]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[u2fauthentication]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>88</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://localhost/wp-content/uploads/2018/02/u2fauthentication.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2018/02/u2fauthentication.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:4:{s:5:"width";i:1113;s:6:"height";i:562;s:4:"file";s:29:"2018/02/u2fauthentication.jpg";s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
-			<wp:meta_value><![CDATA[The U2F Authentication Process]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Louis-Marie Matthews</title>
-		<link>http://localhost/?attachment_id=99</link>
-		<pubDate>Thu, 12 Apr 2018 21:37:40 +0000</pubDate>
-		<dc:creator><![CDATA[matthewslouismarie]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wp-content/uploads/2018/04/ME.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>99</wp:post_id>
-		<wp:post_date><![CDATA[2018-04-12 22:37:40]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-04-12 21:37:40]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[me]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://localhost/wp-content/uploads/2018/04/ME.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2018/04/ME.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:4:{s:5:"width";i:642;s:6:"height";i:645;s:4:"file";s:14:"2018/04/ME.jpg";s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
-			<wp:meta_value><![CDATA[Louis-Marie Matthews]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Portfolio</title>
-		<link>http://localhost/?page_id=100</link>
-		<pubDate>Sun, 27 May 2018 16:19:12 +0000</pubDate>
+		<link>http://localhost/?page_id=109</link>
+		<pubDate>Mon, 28 May 2018 22:26:07 +0000</pubDate>
 		<dc:creator><![CDATA[matthewslouismarie]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/?page_id=100</guid>
+		<guid isPermaLink="false">http://localhost/?page_id=109</guid>
 		<description></description>
-		<content:encoded><![CDATA[  <section class="project-overview" itemscope itemtype="http://schema.org/VideoGame">
-    <header class="project-header -quackathon">
-      <div class="content">
-        <h2 class="title" itemprop="name">Flipn'Ducks</h2>
-        <ul class="links-list">
-          <li class="item"><a class="link" href="https://github.com/Team-Ecosse/quackathon" itemprop="http://schema.org/downloadUrl"><img class="logo" alt="GitHub" src="https://matthewslouismarie.fr//img/githubwhite.1512388607.png"></a></li>
-        </ul>
-      </div>
-    </header>
-    <div class="content-container">
-      <p class="line-container">We were a team of four.</p>
-      <p class="line-container">Our challenge was to make a <span itemprop="applicationCategory">game</span> controlled by the player's voice in 24 hours.</p>
-      <p class="line-container" itemprop="description">The loudest the player, the higher the duck jumps (to collect items or avoid obstacles). To flip, the player must make a very precise pitch.</p>
-      <div class="media-container">      
-        <div class="video-wrapper">
-          <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/rdyPoRhdihA?rel=0" allowfullscreen></iframe>        </div>
-      </div>
-      <p class="line-container">The biggest difficulties for me were to extract the pitch from the voice input and detect pitch patterns to decide if the duck should flip or not.</p>
-      <p class="line-container">As it was made using Unity, it works on <span itemprop="operatingSystem">all major platforms</span>.</p>
-      <div class="image-container"><img class="logo" alt="The demonstration of the game at the quackathon" src="https://matthewslouismarie.fr//img/quackathonpicture.1512388380.jpg"></div>
-    </div>
-  </section>
-  <section class="project-overview" itemscope itemtype="http://schema.org/SoftwareApplication">
-    <header class="project-header -codeforgood">
-      <div class="content">
-        <h2 class="title" itemprop="alternateName">Code for Good (J.P. Morgan's Hackathon)</h2>
-      </div>
-    </header>
-    <div class="content-container">
-      <p class="line-container">We were six.</p>
-      <p class="line-container">Our challenge was to make existing websites more accessible for blind people and people with low vision on <span itemprop="operatingSystem">all major platforms</span>.</p>
-      <p class="line-container">We developped a <span itemprop="applicationCategory">Google Chrome extension</span> summarising the page's content and extracting the main sections of the page to allow the user to quickly jump to a specific part of the page.</p>
-      <p class="line-container">Part of my job included making sure everyone's work would fit together and creating an algorithm to extract the main sections of any page when they do not use ARIA technologies or HTML5.</p>
-      <p class="line-container">With a certain degree of precision, the algorithm detects if a section of the page is the main section or the navigation bar based on its place in the page's hierarchy and on the number of elements that do not contain any links.</p>
-      <div class="image-container"><img class="logo" alt="The extension activated on the BBC website" src="https://matthewslouismarie.fr//img/cyclop.1512388181.jpg"></div>      
-    </div>
-  </section>
-  <section class="project-overview">
-    <header class="project-header -yummycoffee">
-      <div class="content">
-        <h2 class="title">Web Developer at Yummy Coffee</h2>
-      </div>
-    </header>
-    <div class="content-container">
-      <p class="line-container">I worked as a web developer for Yummy Coffee from June till August 2017.</p>
-      <p class="line-container">I was responsible for the entire development process of full-stack websites as well as PrestaShop and WordPress themes.</p>
-      <p class="line-container">I learnt and used several programming practices and web development guidelines, such as <a href="https://www.youtube.com/watch?v=8d2AtAGJPno">Extremely Defensive PHP</a>, <a href="http://rscss.io">RSCSS</a>, and <a href="https://www.lukew.com/ff/entry.asp?933">Mobile First design</a>.</p>
-      <p class="line-container">Part of the work I did included:</p>
-      <ul class="standard-list">
-        <li class="item"><a class="link" href="http://91.121.16.158/ohlouis/fmp/">a website for selling cars online made using a database-driven approach</a>,</li>
-        <li class="item"><a class="link" href="http://www.mytransport.paris">a website for a taxi company</a>,</li>
-        <li class="item"><a class="link" href="http://blog.paysdesdelices.com">adding a dynamic translation system to WordPress</a>,</li>
-        <li class="item"><a class="link" href="http://91.121.16.158/ohlouis/layal/fr/blog/layal-mag-c24.html">revamping a PrestaShop theme and adding a blog section to it</a>.</li>
-      </ul>
-    </div>
-  </section>
-  <section class="project-overview" itemscope itemtype="http://schema.org/VideoGame">
-    <header class="project-header -insidertrading">
-      <div class="content">
-        <h2 class="title" itemprop="name">Insider Trading</h2>
-        <ul class="links-list">
-          <li class="item"><a class="link" href="https://github.com/matthewslouismarie/insidertrading" itemprop="http://schema.org/downloadUrl"><img class="logo" alt="GitHub" src="https://matthewslouismarie.fr//img/githubwhite.1512388607.png"></a></li>
-        </ul>
-      </div>
-    </header>
-    <div class="content-container">
-      <p class="line-container">This is the <span itemprop="applicationCategory">2D game</span> I had to make as part of the Games Programming's module assignment in second year.</p>
-      <p class="line-container">I taught myself C++ instead of Unity as I thought the former is more useful to know.</p>
-      <p class="line-container">Because it uses Allegro it can run on <span itemprop="operatingSystem">all major platforms</span>.</p>
-      <div class="media-container">      
-        <div class="video-wrapper">
-          <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/-8LdjKoZM4s?rel=0" allowfullscreen></iframe>        </div>
-      </div>
-    </div>
-  </section>
-  <section class="project-overview" itemscope itemtype="http://schema.org/VideoGame">
-    <header class="project-header -shifttwo">
-      <div class="content">
-        <h2 class="title" itemprop="name">Shift-Two</h2>
-        <ul class="links-list">
-          <li class="item"><a class="link" href="http://www.moddb.com/mods/shift-two1"><img class="logo" alt="ModDB" src="https://matthewslouismarie.fr//img/moddb.1512388548.png"></a></li>
-        </ul>
-      </div>
-    </header>
-    <div class="content-container">
-      <p class="line-container">Shift-Two is a mod (a specific type of <span itemprop="applicationCategory">game</span>) that I made on my free time when I was in secondary school.</p>
-      <p class="line-container">I taught myself HTML, CSS, but more importantly 3D modelling.</p>
-      <p class="line-container">The technology used being old, poorly documented, and closed-source, I also gained a lot of experience in learning through trial-and-errors and not rely on community support and documentation.</p>
-      <p class="line-container">The game is rated <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"><span itemprop="ratingValue">7</span>/<span itemprop="bestRating">10</span> out of <span itemprop="ratingCount">57</span> reviews</span> on ModDB.</p>
-      <div class="media-container">
-        <div class="video-wrapper">
-          <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/Nl5L2lhoPA4?rel=0" allowfullscreen></iframe>        </div>
-      </div>
-    </div>
-  </section>
-</main>]]></content:encoded>
+		<content:encoded><![CDATA[I'm a student at the University of Dundee. This website presents the different projects I've worked on. You can also take a look at my blog where I write mostly web-development related articles.
+<h1>Flipn'Ducks</h1>
+<a href="https://github.com/Team-Ecosse/quackathon">GitHub.</a>
+
+We were a team of four.
+
+Our challenge was to make a game controlled by the player's voice in 24 hours.
+
+The loudest the player, the higher the duck jumps (to collect items or avoid obstacles). To flip, the player must make a very precise pitch.
+
+The biggest difficulties for me were to extract the pitch from the voice input and detect pitch patterns to decide if the duck should flip or not.
+
+As it was made using Unity, it works on all major platforms.
+<h1>Code for Good (J.P. Morgan's Hackathon)</h1>
+We were six.
+
+Our challenge was to make existing websites more accessible for blind people and people with low vision on all major platforms.
+
+We developped a Google Chrome extension summarising the page's content and extracting the main sections of the page to allow the user to quickly jump to a specific part of the page.
+
+Part of my job included making sure everyone's work would fit together and creating an algorithm to extract the main sections of any page when they do not use ARIA technologies or HTML5.
+
+With a certain degree of precision, the algorithm detects if a section of the page is the main section or the navigation bar based on its place in the page's hierarchy and on the number of elements that do not contain any links.
+
+&nbsp;
+<h1>Web Developer at Yummy Coffee</h1>
+I worked as a web developer for Yummy Coffee from June until August 2017.
+
+I was responsible for the entire development process of full-stack websites as well as PrestaShop and WordPress themes.
+
+I learnt and used several programming practices and web development guidelines, such as <a href="https://www.youtube.com/watch?v=8d2AtAGJPno">Extremely Defensive PHP</a>, <a href="http://rscss.io/">RSCSS</a>, and <a href="https://www.lukew.com/ff/entry.asp?933">Mobile First design</a>.
+
+Part of the work I did included:
+<ul>
+ 	<li><a href="http://91.121.16.158/ohlouis/fmp/">a website for selling cars online</a> made using a database-driven approach,</li>
+ 	<li><a href="http://www.mytransport.paris/">a website for a taxi company</a>,</li>
+ 	<li><a href="http://blog.paysdesdelices.com/">adding a dynamic translation system to WordPress</a>, and</li>
+ 	<li><a href="http://91.121.16.158/ohlouis/layal/fr/blog/layal-mag-c24.html">revamping a PrestaShop theme</a> and adding a blog section to it.</li>
+</ul>
+<h1>Insider Trading</h1>
+This is the 2D game I had to make as part of the Games Programming's module assignment in second year.
+
+I taught myself C++ instead of Unity as I thought the former is more useful to know.
+
+Because it uses Allegro it can run on all major platforms.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>100</wp:post_id>
-		<wp:post_date><![CDATA[2018-05-27 16:19:12]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-05-27 16:19:12]]></wp:post_date_gmt>
+		<wp:post_id>109</wp:post_id>
+		<wp:post_date><![CDATA[2018-05-28 22:26:07]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-05-28 22:26:07]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[portfolio]]></wp:post_name>
