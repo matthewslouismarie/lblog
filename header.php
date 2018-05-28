@@ -46,7 +46,7 @@
 
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
-        <img alt="Navigation Menu" src="<?= get_stylesheet_directory_uri() ?>/public/glyphicons_free/glyphicons/png/glyphicons-517-menu-hamburger.png">
+        <img alt="Navigation Menu" class="icon" src="<?= get_stylesheet_directory_uri() ?>/public/glyphicons_free/glyphicons/png/glyphicons-517-menu-hamburger.png">
       </button>
 			<?php
 			wp_nav_menu( array(

@@ -8,6 +8,8 @@
   > .site-branding > .site-title {
     margin-bottom: 0;
     margin-top: 0;
+    font-size: $title-ft-size;
+    line-height: $title-ft-size;
   }
 
   > .main-navigation > .menu-toggle {
@@ -15,10 +17,13 @@
     border-width: 0;
   }
 
+  > .main-navigation > .menu-toggle > .icon {
+    height: $title-ft-size;
+    width: auto;
+  }
+
   > .site-branding > .site-title,
   > .main-navigation > .menu-toggle {
-    font-size: $title-ft-size;
-    line-height: $title-ft-size;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
   }
