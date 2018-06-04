@@ -23,4 +23,5 @@ script:
 
 after_success:
   - git remote add deploy shift-two_matthewslouismarie@ssh-shift-two.alwaysdata.net:~/project.git
+  - git branch
   - git push deploy HEAD:master
