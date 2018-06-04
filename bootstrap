@@ -5,5 +5,5 @@ npm install
 if [ ! -f public/glyphicons_free.zip ]; then
     ./download-glyphicons
 fi
-echo $(PATH)
+echo $PATH
 grunt sass
