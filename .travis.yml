@@ -16,7 +16,7 @@ before_install:
   - ./bootstrap
 
 install:
-  - cp travis $HOME/.ssh
+  - cp travis/* $HOME/.ssh
 
 script:
   - phpunit
