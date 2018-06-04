@@ -15,10 +15,12 @@ before_install:
   - cd ..
   - ./bootstrap
 
+install:
+  - cp travis/known_hosts $HOME/.ssh/known_hosts
+
 script:
   - phpunit
 
 after_success:
   - git remote add deploy shift-two_matthewslouismarie@ssh-shift-two.alwaysdata.net:~/project.git
-  - echo '|1|kE8TEJwkvqGW8s734PsUandyXUg=|1BNT+0hv5bAiSF2Y4o7zrx/5ktw= ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCyvxrJiLo2cWCMeAS7P0a24JLskaTGDXA6tcg0P2gaFAtWe3wN5K3mc6VjYLYMJLBYS8WM37bijXAER1rFKBTY=' >> $HOME/.ssh/known_hosts
-  - git push deploy HEAD:master 
+  - git push deploy HEAD:master
