@@ -2,5 +2,7 @@
 
 composer install
 npm install
-./download-glyphicons
+if [ ! -f public/glyphicons_free.zip ]; then
+    ./download-glyphicons
+fi
 grunt sass
