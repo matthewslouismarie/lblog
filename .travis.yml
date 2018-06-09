@@ -15,13 +15,5 @@ before_install:
   - cd ..
   - ./bootstrap
 
-install:
-  - cp travis/* $HOME/.ssh
-
 script:
   - phpunit
-
-after_success:
-  - git remote add deploy shift-two_matthewslouismarie@ssh-shift-two.alwaysdata.net:~/project.git
-  - git checkout master
-  - git push deploy HEAD:master
