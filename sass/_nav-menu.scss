@@ -15,4 +15,19 @@
   > .page_item > a:hover {
     background-color: #505050;
   }
+
+  @media (min-width: $screen-md-min) {
+    text-align: center;
+
+    > .page_item {
+      float: none;
+      margin: 0;
+    }
+
+    > .page_item > a {
+      background: none;
+      color: #000;
+      display: inline;
+    }
+  }
 }

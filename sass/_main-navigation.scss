@@ -3,4 +3,10 @@
     background-color: #000;
     overflow-y: auto;
   }
+
+  @media (min-width: $screen-md-min) {
+    > .menu {
+      background: none;
+    }
+  }
 }

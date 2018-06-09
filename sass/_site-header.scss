@@ -27,4 +27,13 @@
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
   }
+
+  @media (min-width: $screen-md-min) {
+    background: none;
+
+    > .site-branding {
+      float: none;
+      text-align: center;
+    }
+  }
 }
