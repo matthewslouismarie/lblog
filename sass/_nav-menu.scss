@@ -21,13 +21,23 @@
 
     > .page_item {
       float: none;
-      margin: 0;
+      margin: 0 $mds-main-nav-ft-size;
     }
 
     > .page_item > a {
       background: none;
       color: #000;
       display: inline;
+      font-size: $mds-main-nav-ft-size;
+      letter-spacing: $mds-main-nav-ft-size / 3;
+      text-transform: uppercase;
+      font-family: Palatino, "URW Palladio L", serif;
+    }
+
+    > .page_item > a:hover {
+      transition: color 1s ease;
+      background: none;
+      color: #920000;
     }
   }
 }
