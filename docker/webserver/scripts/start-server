@@ -11,5 +11,6 @@ wp plugin install wordpress-importer --activate
 cd /var/www/html/wp-content/themes/lblog/docker
 wp import louis-mariematthews039sblog.wordpress.2018-05-28.xml --authors=create
 wp theme activate lblog
+./bootstrap
 
 sudo apache2-foreground
