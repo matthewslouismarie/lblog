@@ -50,7 +50,8 @@ RUN sudo apt-get install -y wget
 COPY scripts/install-composer /home/louis/bin
 COPY scripts/composer /home/louis/bin
 RUN sudo chmod +x ~/bin/install-composer ~/bin/composer
-RUN install-composer
+RUN sed -i 's/\r$//' /home/louis/bin/install-composer
+RUN sh /home/louis/bin/install-composer
 RUN rm ~/bin/install-composer
 
 # Install NPM and Grunt
