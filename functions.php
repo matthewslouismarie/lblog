@@ -135,7 +135,7 @@ add_action( 'widgets_init', 'lblog_widgets_init' );
  * Enqueue scripts and styles.
  */
 function lblog_scripts() {
-	wp_enqueue_style( 'lblog-style', get_stylesheet_uri() );
+	// wp_enqueue_style( 'lblog-style', get_stylesheet_uri() );
 
 	wp_enqueue_style(
         'lblog-style-min',
