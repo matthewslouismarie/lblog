@@ -26,10 +26,12 @@ get_header();
 
 ?>
 <div class="entry-container" id="post-<?= get_the_ID() ?>">
-    <h2 class="entry-title">
-      <a class="link" href="<?= get_the_permalink() ?>"><?= get_the_title(); ?></a>
-	</h2>
-	<div class="date"><?= get_the_date() ?></div>
+	<header class="entry-header">
+		<h2 class="entry-title">
+			<a class="link" href="<?= get_the_permalink() ?>"><?= get_the_title(); ?></a>
+		</h2>
+		<div class="date"><?= get_the_date() ?></div>
+	</header>
     <?= get_the_excerpt(); ?>
 </div>
 <?php

@@ -11,7 +11,8 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<h2 class="entry-title"><?= get_the_title(); ?></h2>
+		<div class="date"><?= get_the_date() ?></div>
 	</header><!-- .entry-header -->
 
 	<?php lblog_post_thumbnail(); ?>
