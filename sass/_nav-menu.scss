@@ -21,6 +21,7 @@
 
     > .page_item {
       float: none;
+      line-height: 2;
       margin: 0 $mds-main-nav-ft-size;
     }
 
@@ -32,12 +33,17 @@
       letter-spacing: $mds-main-nav-ft-size / 3;
       text-transform: uppercase;
       font-family: Palatino, "URW Palladio L", serif;
+      border-bottom: 0 #ad0202 solid;
+    }
+
+    > .page_item > a > .lastletter {
+      letter-spacing: 0;
     }
 
     > .page_item > a:hover {
-      transition: color 1s ease;
+      transition: border-bottom 0.2s ease;
       background: none;
-      color: #920000;
+      border-bottom-width: $sm-fat-line;
     }
   }
 }

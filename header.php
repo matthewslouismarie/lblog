@@ -45,8 +45,8 @@
 
       <div id="primary-menu" class="menu">
         <ul>
-          <li class="page_item page-item-100 current_page_item"><a href="<?= home_url() ?>">Home</a></li>
-          <li class="page_item page-item-100 current_page_item"><a href="<?= get_permalink(get_page_by_path('/portfolio/')->ID) ?>">Portfolio</a></li>
+          <li class="page_item page-item-100 current_page_item"><a href="<?= home_url() ?>">Hom<span class="lastletter">e</span></a></li>
+          <li class="page_item page-item-100 current_page_item"><a href="<?= get_permalink(get_page_by_path('/portfolio/')->ID) ?>">Portfoli<span class="lastletter">o</span></a></li>
         </ul>
       </div>
 		</nav><!-- #site-navigation -->
