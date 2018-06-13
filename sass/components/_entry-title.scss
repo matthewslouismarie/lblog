@@ -1,5 +1,8 @@
 .entry-title {
+    font-family: $title-font;
+
     > .link {
+        color: $nm-color;
         text-decoration: none;
     }
 }

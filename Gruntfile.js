@@ -8,7 +8,7 @@ module.exports = function (grunt) {
       }
     },
     watch: {
-      files: ['sass/*'],
+      files: ['sass/**'],
       tasks: ['sass'],
       options: {
         spawn: false,

@@ -13,9 +13,6 @@
     padding-bottom: $mds-site-title-ft-size / 2;
     padding-top: $mds-site-title-ft-size / 2;
     font-size: $mds-site-title-ft-size;
-
-    > .link {
-      font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
-    }
+    font-family: $hdr-font;
   }
 }
