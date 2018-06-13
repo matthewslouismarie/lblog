@@ -137,7 +137,12 @@ add_action( 'widgets_init', 'lblog_widgets_init' );
 function lblog_scripts() {
 	wp_enqueue_style( 'lblog-style', get_stylesheet_uri() );
 
-	wp_enqueue_style('lblog-style-min', get_stylesheet_directory_uri().'/style.min.css');
+	wp_enqueue_style(
+        'lblog-style-min',
+        get_stylesheet_directory_uri().'/style.min.css',
+        [],
+        filemtime(get_stylesheet_directory().'/style.min.css')
+    );
 
 	wp_enqueue_script( 'lblog-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
