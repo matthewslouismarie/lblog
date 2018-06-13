@@ -1,5 +1,7 @@
 .site-header {
   background-color: $hdr-bg-clr;
+  padding-left: $sm-fat-line;
+  padding-right: $sm-fat-line;
 
   > .site-branding {
     float: right;
