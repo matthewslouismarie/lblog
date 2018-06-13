@@ -25,7 +25,7 @@ get_header();
 				the_post();
 
 ?>
-<div class="entry-container">
+<div class="entry-container" id="post-<?= get_the_ID() ?>">
     <h2 class="entry-title">
       <a class="link" href="<?= get_the_permalink() ?>"><?= get_the_title(); ?></a>
 	</h2>

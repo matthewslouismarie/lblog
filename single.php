@@ -11,8 +11,9 @@ get_header();
 ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
 
+		<nav><a href="<?= home_url() ?>"><img alt="Go back" src="<?= getGlyphiconUrl("glyphicons-217-circle-arrow-left") ?>"></a></nav>
+		<main id="main" class="site-main">
 		<?php
 		while ( have_posts() ) :
 			the_post();

@@ -7,6 +7,10 @@
  * @package lblog
  */
 
+function getGlyphiconUrl(string $id): string {
+	return get_stylesheet_directory_uri()."/public/glyphicons_free/glyphicons/png/{$id}.png";
+}
+
 if ( ! function_exists( 'lblog_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
