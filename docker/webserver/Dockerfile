@@ -38,7 +38,6 @@ RUN wp core download
 # COPY tls/dhparam.pem /etc/ssl/certs/dhparam.pem
 # COPY tls/ssl-params.conf /etc/apache2/conf-available/ssl-params.conf
 # COPY tls/default-ssl.conf /etc/apache2/sites-available/default-ssl.conf
-# RUN sudo a2enmod rewrite
 # RUN sudo a2enmod ssl
 # RUN sudo a2enmod headers
 # RUN sudo a2ensite default-ssl
@@ -75,5 +74,8 @@ RUN sudo apt-get install -y unzip
 
 COPY scripts/start-server /home/louis/bin/start-server
 RUN sudo chmod +x ~/bin/start-server
+
+# Activate URL rewriting
+RUN sudo a2enmod rewrite
 
 CMD start-server
