@@ -1,9 +1,9 @@
 .nav-menu {
   > .page_item {
-    margin: 0.5rem 0 0.5rem 0.5rem;
+    margin: $sm-fat-line 0 $sm-fat-line $sm-fat-line;
     display: inline-block;
   }
-
+  
   > .page_item > a {
     color: #fff;
     display: block;
