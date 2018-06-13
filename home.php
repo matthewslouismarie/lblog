@@ -26,8 +26,8 @@ get_header();
 
 ?>
 <div>
-    <h2>
-      <a href="<?= get_the_permalink() ?>"><?= get_the_title(); ?></a>
+    <h2 class="entry-title">
+      <a class="link" href="<?= get_the_permalink() ?>"><?= get_the_title(); ?></a>
     </h2>
     <?= get_the_excerpt(); ?>
 </div>
