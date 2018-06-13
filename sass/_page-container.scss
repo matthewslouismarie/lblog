@@ -1,6 +1,10 @@
 .page-container {
   font-size: $ft-size;
 
+  > .site-footer {
+    margin-top: $big-spacing;
+  }
+
   @media (min-width: $screen-md-min) {
     margin-left: auto;
     margin-right: auto;
