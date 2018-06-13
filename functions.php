@@ -7,13 +7,20 @@
  * @package lblog
  */
 
-function getGlyphiconUrl(string $id): string {
+function getGlyphiconUrl(string $id): string 
+{
 	return get_stylesheet_directory_uri()."/public/glyphicons_free/glyphicons/png/{$id}.png";
 }
 
-function getHomeUrl(int $pageNo = 1): string {
-	return get_option('permalink_structure');
-}
+// function getHomeUrl(int $pageNo = 1): string 
+// {
+// 	$permalinkStructure = get_option('permalink_structure');
+// 	if ('' === $permalinkStructure) {
+// 		return get_home_url()."?paged={$pageNo}";
+// 	} else {
+// 		return get_home_url()."/page/";
+// 	}
+// }
 
 if ( ! function_exists( 'lblog_setup' ) ) :
 	/**
