@@ -28,7 +28,8 @@ get_header();
 <div class="entry-container">
     <h2 class="entry-title">
       <a class="link" href="<?= get_the_permalink() ?>"><?= get_the_title(); ?></a>
-    </h2>
+	</h2>
+	<div class="date"><?= get_the_date() ?></div>
     <?= get_the_excerpt(); ?>
 </div>
 <?php
