@@ -9,7 +9,7 @@ class PermalinkStructureTest extends TestCase
     {
         $client = new Client();
         $res = $client->request('GET', 'http://localhost/page/1/');
-        $this->assertEquals(302, $res->getStatusCode());
+        $this->assertEquals(200, $res->getStatusCode());
     }
 }
 
