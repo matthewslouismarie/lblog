@@ -1,0 +1,5 @@
+.site-main {
+    > .entry-container:not(:first-child) {
+        margin-top: $md-spacing;
+    }
+}
