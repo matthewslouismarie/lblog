@@ -7,6 +7,8 @@
  * @package lblog
  */
 
+const LIVE_SITE_URL = 'https://matthewslouismarie.fr';
+
 function getGlyphiconUrl(string $id): string 
 {
 	return get_stylesheet_directory_uri()."/public/glyphicons_free/glyphicons/png/{$id}.png";
