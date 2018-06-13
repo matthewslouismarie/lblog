@@ -1,7 +1,8 @@
 .site-title {
-  padding-bottom: 0.5rem;
-  padding-top: 0.5rem;
-  font-size: $sms-site-title-ft-size;
+  padding-bottom: $sm-fat-line;
+  padding-top: $sm-fat-line;
+  font-size: $ft-size;
+  line-height: $ft-size;
 
   > .link {
     font-weight: 500;

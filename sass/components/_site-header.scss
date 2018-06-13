@@ -15,10 +15,11 @@
   > .main-navigation > .menu-toggle {
     border-radius: 0;
     border-width: 0;
+    padding: $sm-fat-line 0;
   }
 
   > .main-navigation > .menu-toggle > .icon {
-    height: $title-ft-size;
+    height: $ft-size;
     width: auto;
   }
 
