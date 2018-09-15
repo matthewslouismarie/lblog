@@ -78,4 +78,4 @@ RUN sudo chmod +x ~/bin/start-server
 # Activate URL rewriting
 RUN sudo a2enmod rewrite
 
-CMD start-server
+ENTRYPOINT ["start-server"]
